@@ -1,0 +1,48 @@
+/* lets get this straight like first of all this code means that it's set for all divs i think */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* dont mind this, its just the settings */
+.body
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.DIV
+{
+    margin: 5px;
+    padding: 10px;
+    height: 100px;
+    width: 150px;
+    background-color: rgb(60, 0, 128);
+    border: 2px black solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DIV p
+{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+/* this is how you make it hoverable */
+.DIV:hover
+{
+    /* now in here you can change any setting, keeping the previous settings in place
+    (try adding some random commands) */
+    background-color: rgb(62, 4, 4);
+}
